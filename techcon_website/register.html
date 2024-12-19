@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechCon 2024 conference </title>
+    <style>
+    /* Add the CSS styling here */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    nav li {
+        float: left;
+    }
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        background-color: #111;
+    }
+</style>
+  </head>
+  <body>
+  <header>
+    <h1>TechCon 2024 conference</h1>
+    <nav>  
+        <ul> <!--about.html, schedule.html, register.html, contact.html-->
+             <li><a href="index">Home </a></li>
+            <li><a href="about.html">About </a></li>
+            <li><a href="schedule.html">Schedule </a></li>
+            <li><a href="register.html">Register </a></li>
+            <li><a href="contact.html">Contact  </a></li>
+            </ul>
+        </nav>
+  </header>
+    <main>
+    <form action="/submit-form" method="post">
+    <label for="fullname">Full names </label>
+    <input type="text" name="fullname" placeholder="Full Name">
+    <br>
+    <label for="email">Email </label>
+    <input type="email" name="email" placeholder="Email">
+    <br>
+    <label for="password">Password </label>
+    <input type="password" name="password" placeholder="Password">
+    <br>
+    <label for="password">Password Confirmation </label>
+    <input type="passwordconfirmation" name="passwordconfirmation" pattern="password" placeholder="Passwordconfirmation">
+    <br>
+     <label for="terms">Terms and conditions </label>
+    <input type="checkbox" name="checkbox" placeholder="terms">
+    <br>
+    <button type="submit">Register Now</button>
+    </form>
+    </main>
+    <footer>
+     <p>&copy; 2024 by TechCon.</p>
+   </footer>
+ </body>
+ </html>
